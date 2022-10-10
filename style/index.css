@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.border-50 {
+  border-radius: 2rem;
+}
+.header-text {
+  font-size: 30px;
+  color: white;
+}
+.z-index {
+  z-index: -1;
+}
+.main {
+  height: 100vh;
+  background-image: url("../images/home/home.jpg");
+  background-size: cover;
+}
+.main .main-title {
+  font-size: 118px;
+  font-weight: bold;
+  color: white;
+  padding-top: 10rem;
+}
+.main .header-list {
+  font-size: 24px;
+  color: white;
+  width: 50%;
+}
+.main .btn-header {
+  background: #131109;
+  color: white;
+  width: 450px;
+  height: 140px;
+  border-radius: 7rem;
+  font-size: 29px;
+  margin-left: auto;
+}
+.main .header-bottom {
+  color: white;
+  font-size: 25px;
+  padding-top: 6rem;
+}
+@media screen and (max-width: 991px) {
+  .none991 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+}
+/*# sourceMappingURL=index.css.map */
