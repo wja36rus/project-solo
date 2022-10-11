@@ -16,7 +16,6 @@ body {
 }
 
 .main {
-  height: 100vh;
   background-image: url("../images/home/home.jpg");
   background-size: cover;
 
@@ -47,10 +46,69 @@ body {
     color: white;
     font-size: 25px;
     padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .main {
+    .main-title {
+      font-size: 65px;
+    }
+
+    .header-list {
+      font-size: 20px;
+    }
+
+    .header-bottom {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .main {
+    .main-title {
+      font-size: 65px;
+    }
+
+    .header-list {
+      font-size: 20px;
+      width: 100%;
+      padding-bottom: 2rem;
+    }
+
+    .btn-header {
+      margin: 0 auto;
+    }
+
+    .header-bottom {
+      font-size: 20px;
+    }
   }
 }
 
 @media screen and (max-width: 991px) {
+  .main {
+    .main-title {
+      font-size: 60px;
+    }
+
+    .header-list {
+      font-size: 20px;
+      width: 100%;
+      padding-bottom: 2rem;
+    }
+
+    .btn-header {
+      margin: 0 auto;
+    }
+
+    .header-bottom {
+      font-size: 20px;
+      padding: 1rem;
+    }
+  }
   .none991 {
     display: none;
   }
@@ -59,5 +117,35 @@ body {
 @media screen and (max-width: 768px) {
   .container {
     max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .main {
+    .main-title {
+      font-size: 8vw;
+    }
+
+    .header-list {
+      font-size: 3.5vw;
+      width: 100%;
+      padding-bottom: 2rem;
+      margin: 0 !important;
+    }
+
+    .btn-header {
+      margin: 0 auto;
+      width: 72vw;
+      font-size: 5vw;
+      height: 26vw;
+    }
+
+    .header-bottom {
+      font-size: 3.5vw;
+      padding: 1rem;
+    }
+  }
+  .none991 {
+    display: none;
   }
 }
