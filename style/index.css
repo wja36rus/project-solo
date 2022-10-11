@@ -117,4 +117,16 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 425px) {
+  .container-header {
+    margin: 0;
+    padding: 0;
+  }
+  .logo {
+    width: 5rem;
+  }
+  .href-text {
+    font-size: 14px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
