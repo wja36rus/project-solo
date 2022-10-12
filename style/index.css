@@ -41,6 +41,25 @@ body {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
+.four {
+  background: #D8D1CB;
+}
+.four .foru-cards {
+  width: 40rem;
+}
+.four .wrap-four {
+  width: 47rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.four h1 {
+  font-size: 110px;
+  font-weight: bold;
+}
+.four h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
 @media screen and (max-width: 1399px) {
   .main .main-title {
     font-size: 65px;
@@ -50,6 +69,9 @@ body {
   }
   .main .header-bottom {
     font-size: 20px;
+  }
+  .four .foru-cards {
+    width: 34rem;
   }
 }
 @media screen and (max-width: 1199px) {
@@ -67,6 +89,9 @@ body {
   .main .header-bottom {
     font-size: 20px;
   }
+  .four .foru-cards {
+    width: 29rem;
+  }
 }
 @media screen and (max-width: 991px) {
   .main .main-title {
@@ -83,6 +108,23 @@ body {
   .main .header-bottom {
     font-size: 20px;
     padding: 1rem;
+  }
+  .four .foru-cards {
+    width: 100%;
+  }
+  .four .wrap-four {
+    width: 72vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .four h1 {
+    font-size: 11vw;
+  }
+  .four h2 {
+    font-size: 3.6vw;
+  }
+  .four p {
+    font-size: 3.5vw;
   }
   .none991 {
     display: none;
