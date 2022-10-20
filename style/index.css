@@ -57,7 +57,7 @@ body {
   width: 40rem;
 }
 .four .wrap-four {
-  width: 47rem;
+  width: max-content;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -69,92 +69,108 @@ body {
   font-size: 38px;
   font-weight: bold;
 }
-@media screen and (max-width: 1399px) {
-  .main .main-title {
-    font-size: 65px;
-  }
-  .main .header-list {
-    font-size: 20px;
-  }
-  .main .header-bottom {
-    font-size: 20px;
-  }
+.find {
+  background-image: url("../images/find/mikrofon.jpg");
+  background-size: cover;
 }
-@media screen and (max-width: 1199px) {
-  .main .main-title {
-    font-size: 65px;
-  }
-  .main .header-list {
-    font-size: 20px;
-    width: 100%;
-    padding-bottom: 2rem;
-  }
-  .main .btn-header {
-    margin: 0 auto;
-  }
-  .main .header-bottom {
-    font-size: 20px;
-  }
+.find .wrap-find {
+  width: max-content;
 }
-@media screen and (max-width: 991px) {
-  .main .main-title {
-    font-size: 60px;
-  }
-  .main .header-list {
-    font-size: 20px;
-    width: 100%;
-    padding-bottom: 2rem;
-  }
-  .main .btn-header {
-    margin: 0 auto;
-  }
-  .main .header-bottom {
-    font-size: 20px;
-    padding: 1rem;
-  }
-  .none991 {
-    display: none;
-  }
+.find .find-card {
+  padding: 0.5rem;
 }
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 100%;
-  }
+.find .wrapper.red {
+  width: max-content;
+  padding: 0.5rem;
+  background: #BDA3A1;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px 10px #bda3a1;
 }
-@media screen and (max-width: 692px) {
-  .main .main-title {
-    font-size: 8vw;
-  }
-  .main .header-list {
-    font-size: 3.5vw;
-    width: 100%;
-    padding-bottom: 2rem;
-    margin: 0 !important;
-  }
-  .main .btn-header {
-    margin: 0 auto;
-    width: 72vw;
-    font-size: 5vw;
-    height: 26vw;
-  }
-  .main .header-bottom {
-    font-size: 3.5vw;
-    padding: 1rem;
-  }
-  .none991 {
-    display: none;
-  }
+.find .wrapper.orange {
+  width: max-content;
+  padding: 0.5rem;
+  background: #D5C7B9;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px 10px #D5C7B9;
 }
-@media screen and (max-width: 425px) {
-  .container-header {
-    margin: 0;
-    padding: 0;
-  }
-  .logo {
-    width: 5rem;
-  }
-  .href-text {
-    font-size: 13px;
-  }
+.find .wrapper.green {
+  width: max-content;
+  padding: 0.5rem;
+  background: #D3E7CA;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px 10px #D3E7CA;
+}
+.find p {
+  font-size: 14px;
+}
+.lesson {
+  background: #D8D1CB;
+}
+.lesson .box {
+  width: 61%;
+  padding: 0.5rem;
+  border: 4px solid #870000;
+  border-radius: 1rem;
+  color: #870000;
+  text-align: center;
+  transform: rotate(-9deg);
+  margin-top: 4rem;
+  margin-left: auto;
+}
+.lesson .btn-lesson {
+  padding: 1rem;
+  background: black;
+  color: white;
+  font-size: 25px;
+  width: 25rem;
+}
+.lesson .lesson-right {
+  width: 28rem;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+.lesson .lesson-right::before {
+  content: "";
+  position: absolute;
+  width: 7rem;
+  height: 7rem;
+  background-image: url("../images/lesson/boock.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  left: -4rem;
+  top: -2rem;
+}
+.video .card-video {
+  width: 27rem;
+  padding: 1rem;
+}
+.foto {
+  background: #D8D1CB;
+}
+.foto .card-foto {
+  width: 27rem;
+  padding: 1rem;
+}
+.proba .middle {
+  width: 71%;
+  margin: 0 auto;
+}
+.fact {
+  background: #D8D1CB;
+}
+.form {
+  background-image: url("../images/form/Frame 8.jpg");
+  background-size: cover;
+  color: white;
+}
+.form .btn-form {
+  background: black;
+  color: white;
+  width: 100%;
+}
+footer {
+  background: linear-gradient(180deg, #2B261A 0%, #050401 100%);
 }
 /*# sourceMappingURL=index.css.map */

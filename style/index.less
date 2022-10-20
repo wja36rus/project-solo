@@ -69,7 +69,7 @@ body {
   }
 
   .wrap-four {
-    width: 47rem;
+    width: max-content;
     padding-top: 3rem;
     padding-bottom: 3rem;
   }
@@ -85,119 +85,131 @@ body {
   }
 }
 
-@media screen and (max-width: 1399px) {
-  .main {
-    .main-title {
-      font-size: 65px;
-    }
+.find {
+  background-image: url("../images/find/mikrofon.jpg");
+  background-size: cover;
 
-    .header-list {
-      font-size: 20px;
-    }
+  .wrap-find {
+    width: max-content;
+  }
 
-    .header-bottom {
-      font-size: 20px;
-    }
+  .find-card {
+    padding: .5rem;
+  }
+
+  .wrapper.red {
+    width: max-content;
+    padding: .5rem;
+    background: #BDA3A1;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px 10px #bda3a1;
+  }
+
+  .wrapper.orange {
+    width: max-content;
+    padding: .5rem;
+    background: #D5C7B9;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px 10px #D5C7B9;
+  }
+
+  .wrapper.green {
+    width: max-content;
+    padding: .5rem;
+    background: #D3E7CA;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px 10px #D3E7CA;
+  }
+
+  p {
+    font-size: 14px;
   }
 }
 
-@media screen and (max-width: 1199px) {
-  .main {
-    .main-title {
-      font-size: 65px;
-    }
+.lesson {
+  background: #D8D1CB;
 
-    .header-list {
-      font-size: 20px;
-      width: 100%;
-      padding-bottom: 2rem;
-    }
+  .box {
+    width: 61%;
+    padding: 0.5rem;
+    border: 4px solid #870000;
+    border-radius: 1rem;
+    color: #870000;
+    text-align: center;
+    transform: rotate(-9deg);
+    margin-top: 4rem;
+    margin-left: auto;
+  }
 
-    .btn-header {
-      margin: 0 auto;
-    }
+  .btn-lesson {
+    padding: 1rem;
+    background: black;
+    color: white;
+    font-size: 25px;
+    width: 25rem;
+  }
 
-    .header-bottom {
-      font-size: 20px;
-    }
+  .lesson-right {
+    width: 28rem;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+
+  .lesson-right::before {
+    content: "";
+    position: absolute;
+    width: 7rem;
+    height: 7rem;
+    background-image: url("../images/lesson/boock.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+    left: -4rem;
+    top: -2rem;
   }
 }
 
-@media screen and (max-width: 991px) {
-  .main {
-    .main-title {
-      font-size: 60px;
-    }
-
-    .header-list {
-      font-size: 20px;
-      width: 100%;
-      padding-bottom: 2rem;
-    }
-
-    .btn-header {
-      margin: 0 auto;
-    }
-
-    .header-bottom {
-      font-size: 20px;
-      padding: 1rem;
-    }
-  }
-
-  .none991 {
-    display: none;
+.video {
+  .card-video {
+    width: 27rem;
+    padding: 1rem;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    max-width: 100%;
+.foto {
+  background: #D8D1CB;
+
+  .card-foto {
+    width: 27rem;
+    padding: 1rem;
   }
 }
 
-@media screen and (max-width: 692px) {
-  .main {
-    .main-title {
-      font-size: 8vw;
-    }
+.proba {
 
-    .header-list {
-      font-size: 3.5vw;
-      width: 100%;
-      padding-bottom: 2rem;
-      margin: 0 !important;
-    }
-
-    .btn-header {
-      margin: 0 auto;
-      width: 72vw;
-      font-size: 5vw;
-      height: 26vw;
-    }
-
-    .header-bottom {
-      font-size: 3.5vw;
-      padding: 1rem;
-    }
-  }
-
-  .none991 {
-    display: none;
+  .middle {
+    width: 71%;
+    margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 425px) {
-  .container-header {
-    margin: 0;
-    padding: 0;
-  }
+.fact {
+  background: #D8D1CB;
+}
 
-  .logo {
-    width: 5rem;
-  }
+.form {
+  background-image: url("../images/form/Frame 8.jpg");
+  background-size: cover;
+  color: white;
 
-  .href-text {
-    font-size: 13px;
+  .btn-form {
+    background: black;
+    color: white;
+    width: 100%;
   }
+}
+
+footer {
+  background: linear-gradient(180deg, #2B261A 0%, #050401 100%);
 }
