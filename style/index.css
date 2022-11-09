@@ -206,4 +206,7 @@ footer {
   cursor: pointer;
   opacity: 0.8;
 }
+.error {
+  background: #ffdbdb;
+}
 /*# sourceMappingURL=index.css.map */

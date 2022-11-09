@@ -26,7 +26,6 @@ $(document).ready(function () {
         const name = $('#form-name').val();
         const phone = $('#form-phone').val();
 
-
         if (name === "") {
             $('.form-error').empty().html("<p class='mb-0'>Заполните поле Имя</p>");
             $('#form-name').addClass('error');
@@ -46,6 +45,33 @@ $(document).ready(function () {
                     setTimeout(() => {
                     $('.shadow-form').removeClass('active');
                 }, 150)
+                }, 1500)
+            }, 1500)
+        }
+    });
+
+    $('#sendform-b').click(function (e) { 
+        e.preventDefault();
+        
+        const name = $('#form-name-b').val();
+        const phone = $('#form-phone-b').val();
+
+        if (name === "") {
+            $('.form-error-b').empty().html("<p class='mb-0'>Заполните поле Имя</p>");
+            $('#form-name-b').addClass('error');
+        } else if (phone === "") {
+            $('.form-error-b').empty().html("<p class='mb-0'>Заполните поле Телефон</p>");
+            $('#form-phone-b').addClass('error');
+        } else {
+            $('.form-error-b').empty();
+            $('#form-name-b').removeClass('error');
+            $('#form-phone-b').removeClass('error');
+            setTimeout(() => {
+                $('.form-error-b').empty().html("<p class='mb-0'>Ваш запрос отправлен.</p> <p>Я скоро с вами свяжусь!</p>");
+                setTimeout(() => {
+                    $('.form-error-b').removeClass('text-success').empty();
+                    $('#form-name-b').val("");
+                    $('#form-phone-b').val("");
                 }, 1500)
             }, 1500)
         }
