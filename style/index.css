@@ -173,4 +173,37 @@ body {
 footer {
   background: linear-gradient(180deg, #2B261A 0%, #050401 100%);
 }
+#myform {
+  margin: 0 auto;
+}
+.btn-forms {
+  background: #131109;
+  color: white;
+  border-radius: 7rem;
+  font-size: 16px;
+  padding: 6px;
+}
+.shadow-form {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background: #00000073;
+  position: fixed;
+  z-index: -1;
+  opacity: 0;
+  transition: 0.5s;
+}
+.shadow-form.active {
+  z-index: 999999999;
+  opacity: 1;
+  transition: 0.5s;
+}
+.shadows {
+  background: #231f20;
+}
+.opacity:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
 /*# sourceMappingURL=index.css.map */
